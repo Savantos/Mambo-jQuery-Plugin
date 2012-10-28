@@ -13,7 +13,7 @@
 	// Start orbit plugin
 	$(document.getElementById('showcase')).orbit({ fluid: '16x5', timer: false });
 	// Mambo demo
-	$(document.getElementById('full-features')).mambo({value: 65, text: "Cr", internalCircle: { fill: 'rgb(109, 172, 212)', line: 'rgb(69, 132, 188)'}, percentage: {drawUnfilled: true, color: "rgb(148, 207, 251)", unfilledColor: "rgb(166, 166, 166)"}, drawShadow: true});
+	$(document.getElementById('full-features')).mambo({value: 65, text: {label: "Cr", displayValue: true, textColor: "#11929E"}, internalCircle: { fill: '#FFF9B1', line: '#9AB285'}, percentage: {drawUnfilled: true, color: "#FFB896", unfilledColor: "#B2A589"}, drawShadow: true});
 	$(document.getElementById('only-label')).mambo({value: 35, displayValue: false, text: "Ti", internalCircle: { fill: 'rgb(81, 56, 110)', line: 'rgb(42, 35, 51)'}, percentage: {drawUnfilled: true, color: "rgb(101, 83, 122)", unfilledColor: "rgb(101, 101, 102)"}, drawShadow: true});
 	$(document.getElementById('label-percentage')).mambo({value: 65, text: "Cr", internalCircle: { fill: 'rgb(109, 172, 212)', line: 'rgb(69, 132, 188)'}, percentage: {drawUnfilled: true, color: "rgb(148, 207, 251)", unfilledColor: "rgb(166, 166, 166)"}, drawShadow: true});
 	$(document.getElementById('just-badge')).mambo({value: 65, text: "Cr", internalCircle: { fill: 'rgb(109, 172, 212)', line: 'rgb(69, 132, 188)'}, percentage: {drawUnfilled: true, color: "rgb(148, 207, 251)", unfilledColor: "rgb(166, 166, 166)"}, drawShadow: true});
