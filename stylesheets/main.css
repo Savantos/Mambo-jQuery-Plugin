@@ -1,0 +1,5 @@
+#showcase { background: url("/images/ajax-loader.gif") center center #fff; background-repeat: no-repeat; height: 300px;}
+#showcase.orbit { background: none; }
+#showcase .showcase-slide { display: none; }
+#showcase.orbit .showcase-slide { display: block; }
+.showcase-slide { padding: 30px 60px; }
