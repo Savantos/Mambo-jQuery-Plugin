@@ -1,5 +1,7 @@
-#showcase { background: url("/images/ajax-loader.gif") center center #fff; background-repeat: no-repeat; height: 300px;}
+h1,h2,h3,h4,h5,h6 { font-family: 'Russo One', sans-serif; }
+#showcase { background: url("/images/ajax-loader.gif") center center #fff; background-repeat: no-repeat; }
 #showcase.orbit { background: none; }
 #showcase .showcase-slide { display: none; }
 #showcase.orbit .showcase-slide { display: block; }
 .showcase-slide { padding: 30px 60px; }
+.center { text-align: center; }

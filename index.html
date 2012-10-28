@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>Page Title</title>
     <!-- Included CSS Files, use foundation.css if you do not want minified code -->
+    <link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link rel="stylesheet" href="stylesheets/main.css">
     <!-- Custom Modernizr for Foundation -->
@@ -37,22 +38,42 @@
         <div id="showcase">
           <div class="showcase-slide">
             <div class="seven columns">
-              <h3>jQuery Mambo</h3>
-              <p>Mambo is a jQuery plugin that let you easily create rounded percentage badges</p>
+              <h3 class="subheader">jQuery Mambo</h3>
+              <p>Mambo is a jQuery plugin that let you easily create rounded badges using canvas.</p>
+              <p>You could use it for creating colorfoul badges with labels, display percentages or both :)</p>
             </div>
-            <div class="five columns">.five.columns</div>
+            <div class="five columns center">
+              <canvas id="full-features" width="200" height="200">
+            </div>
           </div>
           <div class="showcase-slide">
-            <div>
-              <h3>jQuery Mambo</h3>
-              <p>Mambo is a jQuery plugin that let you create rounded percentage badges</p>
+            <div class="four columns center">
+              <h3 class="subheader">With percentage</h3>
+              <canvas id="label-percentage" width="180" height="180">
             </div>
-            <div>.five.columns</div>
+            <div class="four columns center">
+              <h3 class="subheader">Only labels</h3>
+              <canvas id="only-label" width="180" height="180">
+            </div>
+            <div class="four columns center">
+              <h3 class="subheader">Just a badge</h3>
+              <canvas id="just-badge" width="180" height="180">
+            </div>
           </div>
         </div>
         <hr />
       </div>
     </div>
+    <footer class="row">
+      <div class="twelve columns">
+        <hr />
+        <div class="row">
+          <div class="six columns">
+            <p>© Copyright <a href="http://www.valeriobarrila.com">Valerio Barril&agrave;</a>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="javascripts/jquery.foundation.orbit.js"></script>
     <script src="javascripts/main.js"></script>
